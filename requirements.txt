@@ -1,0 +1,2 @@
+git-changelog==2.6.3
+pyside6==6.9.3
