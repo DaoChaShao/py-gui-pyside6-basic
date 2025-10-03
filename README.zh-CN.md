@@ -5,7 +5,7 @@
 
 **应用简介**
 ---
-本仓库展示了如何使用 PySide 6 和 PySide 6 Designer 构建一些基础知识。
+本仓库演示了如何利用 PySide6 和 PySide6 Designer 的基础知识来创建一个 UI 界面。
 
 **快速开始**
 ---
