@@ -30,7 +30,7 @@ welcome to review the code [here](./) at any time to verify how your data is han
 
 **LICENCE**
 ---
-This application is licensed under the [BSD-3-Clause Licence](LICENSE). You can click the link to read the licence.
+This application is licensed under the [BSD-3-Clause Licence](LICENCE). You can click the link to read the licence.
 
 **CHANGELOG**
 ---
