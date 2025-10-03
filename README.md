@@ -5,7 +5,8 @@
 
 **INTRODUCTION**
 ---
-The repository demonstrates how to build some basic knowledge of PySide 6 and PySide 6 Designer.
+This repository demonstrates how to utilise the basic knowledge of PySide6 and PySide6 Designer to create a UI
+interface.
 
 **QUICK START**
 ---
