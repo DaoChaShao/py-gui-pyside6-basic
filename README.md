@@ -33,27 +33,44 @@ interface.
     ```bash
     pyside6-uic your_ui_file.ui -o your_python_file.py
     ```
-3. Build the connection between the UI and the backend logic in your Python code:
-    ```python
-    from your_python_file import Ui_Form
-    from PySide6.QtWidgets import QMainWindow
+3. Use the **static load method** to build the connection between the UI and the backend logic in your Python code.  
+   **Method I**: `Composition`(**Recommended**):
+   ```python
+   from your_python_file import Ui_Form
+   from PySide6.QtWidgets import QMainWindow
 
-    class MainWindow(QMainWindow):
-        def __init__(self):
-            super().__init__()
-            self.ui = Ui_Form()
-            self.ui.setupUi(self)
-    ```
-   or
-    ```python
-    from your_python_file import Ui_Form
-    from PySide6.QtWidgets import QMainWindow
-    
-    class MainWindow(QMainWindow, Ui_Form):
-        def __init__(self):
-            super().__init__()
-            self.setupUi(self)
-    ```
+   class MainWindow(QMainWindow):
+       def __init__(self):
+           super().__init__()
+           self.ui = Ui_Form()
+           self.ui.setupUi(self)
+   ```
+   **Method II**: `Inheritance`:
+   ```python
+   from your_python_file import Ui_Form
+   from PySide6.QtWidgets import QMainWindow
+
+   class MainWindow(QMainWindow, Ui_Form):
+       def __init__(self):
+           super().__init__()
+           self.setupUi(self)
+   ```
+4. Use the **dynamic load method** to build the connection between the UI and the backend logic in your Python code.
+   ```python
+   from PySide6.QtUiTools import QUiLoader
+   from PySide6.QtWidgets import QMainWindow
+   from PySide6.QtCore import QFile
+
+   class MainWindow(QMainWindow):
+       def __init__(self):
+           super().__init__()
+           ui_file = QFile("your_ui_file.ui")
+           ui_file.open(QFile.Permission.ReadOnly)
+   
+           loader = QUiLoader()
+           self.ui = loader.load(ui_file, self)
+           ui_file.close()
+   ```
 
 **PRIVACY NOTICE**
 ---
