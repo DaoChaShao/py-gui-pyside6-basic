@@ -19,6 +19,40 @@
     pip install -i https://mirrors.aliyun.com/pypi/simple/ pyside6
     ```
 
+**PySide6 Designer 使用**
+--- 
+
+1. 通常，您可以在 Pycharm 或 VSCode 中编写 PySide6 代码。当然，您也可以通过运行命令启动 `PySide6 Designer` 来设计 UI
+   界面并检查控件属性：
+    ```bash
+    pyside6-designer
+    ```
+2. 设计好 UI 界面后，您可以将文件保存为 `.ui` 文件，并通过运行命令将其转换为 Python 文件：
+    ```bash
+    pyside6-uic your_ui_file.ui -o your_python_file.py
+    ```
+3. 在您的 Python 代码中构建 UI 与后端逻辑的连接：
+    ```python
+    from your_python_file import Ui_Form
+    from PySide6.QtWidgets import QMainWindow
+   
+    class MainWindow(QMainWindow):
+        def __init__(self):
+            super().__init__()
+            self.ui = Ui_Form()
+            self.ui.setupUi(self)
+    ```
+   或者
+    ```python
+    from your_python_file import Ui_Form
+    from PySide6.QtWidgets import QMainWindow
+   
+    class MainWindow(QMainWindow, Ui_Form):
+        def __init__(self):
+            super().__init__()
+            self.setupUi(self)
+    ```
+
 **隐私声明**
 ---
 本应用可能需要您输入个人信息或隐私数据，以生成定制建议和结果。但请放心，应用程序 **不会**
