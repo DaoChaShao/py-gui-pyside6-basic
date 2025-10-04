@@ -3,7 +3,7 @@
 # @Time     :   2025/10/4 10:52
 # @Author   :   Shawn
 # @Version  :   Version 0.1.0
-# @File     :   02_layout_01_vertical.py
+# @File     :   03_layout_01_vertical.py
 # @Desc     :   
 
 from PySide6.QtCore import Qt
