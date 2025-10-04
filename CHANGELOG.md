@@ -5,6 +5,9 @@
 
 ### Features
 
+- add double linked ComboBox example with Faker integration ([3c7f276](https://github.com///commit/3c7f27636cf7158e860f28c25231a997a30fc375))
+- add single ComboBox example with Faker integration ([b26271e](https://github.com///commit/b26271e5f45190e5a3952a4124b8a12bad61fe7f))
+- add main window with password input and timer feedback ([04cbdff](https://github.com///commit/04cbdff83aebf6f5ed9215f7ef89f9158a00f441))
 - add main window with line edit and buttons for user input ([d48b98c](https://github.com///commit/d48b98c95a86c754140a07ac62b40f556921d959))
 - add calculator application with basic GUI functionality ([cfd8626](https://github.com///commit/cfd8626f43c437f3abc8ac41281cfdcf040bf30e))
 - rename 02_layout_05_grid.py to 03_layout_05_grid.py ([05a8f2b](https://github.com///commit/05a8f2b2871cc1f732e4d5c093d9f39d8f2404ad))
@@ -26,6 +29,7 @@
 
 ### Chore
 
+- update CHANGELOG with recent feature additions and file renames ([64102be](https://github.com///commit/64102beec23eaa5d252a330a3a8504ae77ad82c2))
 - update CHANGELOG with recent file renames and refactor ([756b53c](https://github.com///commit/756b53c776d74994a574228fd7d3fb6c3209fa71))
 - update CHANGELOG for version 0.1.0 ([fd139ee](https://github.com///commit/fd139eeda57a3a4d2ec26a12b95709c6322ea1f1))
 
@@ -37,4 +41,8 @@
 - fix typo in LICENCE reference in README ([a915189](https://github.com///commit/a915189613a9268246ae3ba23b7ff12ea01d4d4c))
 - refine Chinese README to improve clarity on PySide6 usage ([b973708](https://github.com///commit/b973708e132cd165e4c18d6e2a5d32c67d79e53c))
 - update README to clarify purpose of the repository ([b517ad4](https://github.com///commit/b517ad4759f3abac007e788380b90bc3f7c5be62))
+
+### Code Refactoring
+
+- rename file from 05_comboBox_01.py to 05_line_edit_01.py ([795e514](https://github.com///commit/795e514201600f111558fd87d8088d406fa826e0))
 
