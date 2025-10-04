@@ -5,6 +5,13 @@
 
 ### Features
 
+- add a Chinese font as data ([a3867ca](https://github.com///commit/a3867ca8e0c0c6dda854e73693ffa5869df970ca))
+- add an English font as data ([e0cfccc](https://github.com///commit/e0cfccc29c1a72329f73102b1ec14f4482985297))
+- add text edit example with submit, clear, and exit functionality ([483f2a8](https://github.com///commit/483f2a8504d7e0ad85eac3673313f777598a6c34))
+- add font selection example with clear and exit functionality ([cdf2707](https://github.com///commit/cdf2707fccce7cca69308e250adfdd0be3db3313))
+- add calculator example with GUI and exit functionality ([1662041](https://github.com///commit/1662041f460d723de0c5e9d6dc15d6e3e742a195))
+- add radio button example with reset and exit functionality ([5091af4](https://github.com///commit/5091af4c9761aaa24469f92d8d22b567a8a4056a))
+- add check box example with reset and exit functionality ([b3d836c](https://github.com///commit/b3d836cbc80da5e294296f0bde1143a3d874b251))
 - add double linked ComboBox example with Faker integration ([3c7f276](https://github.com///commit/3c7f27636cf7158e860f28c25231a997a30fc375))
 - add single ComboBox example with Faker integration ([b26271e](https://github.com///commit/b26271e5f45190e5a3952a4124b8a12bad61fe7f))
 - add main window with password input and timer feedback ([04cbdff](https://github.com///commit/04cbdff83aebf6f5ed9215f7ef89f9158a00f441))
@@ -29,7 +36,7 @@
 
 ### Chore
 
-- update CHANGELOG with recent feature additions and file renames ([64102be](https://github.com///commit/64102beec23eaa5d252a330a3a8504ae77ad82c2))
+- update CHANGELOG with recent feature additions and file renames ([3871fec](https://github.com///commit/3871fec3aeb3b675f9eb7538b12ba471a9746a01))
 - update CHANGELOG with recent file renames and refactor ([756b53c](https://github.com///commit/756b53c776d74994a574228fd7d3fb6c3209fa71))
 - update CHANGELOG for version 0.1.0 ([fd139ee](https://github.com///commit/fd139eeda57a3a4d2ec26a12b95709c6322ea1f1))
 
