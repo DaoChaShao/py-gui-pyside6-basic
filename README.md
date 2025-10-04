@@ -20,6 +20,41 @@ interface.
     pip install -i https://mirrors.aliyun.com/pypi/simple/ pyside6
     ```
 
+**PYSIDE6 DESIGNER USAGE**
+---
+
+1. Normally, you can code in Pycharm or VSCode while using PySide6. Of course, you can also use `PySide6 Designer` to
+   design the UI interface and check the attributes of the widgets by running the command:
+    ```bash
+    pyside6-designer
+    ```
+2. After designing the UI interface, you can save the file as a `.ui` file and convert it to a Python file by running
+   the command:
+    ```bash
+    pyside6-uic your_ui_file.ui -o your_python_file.py
+    ```
+3. Build the connection between the UI and the backend logic in your Python code:
+    ```python
+    from your_python_file import Ui_Form
+    from PySide6.QtWidgets import QMainWindow
+
+    class MainWindow(QMainWindow):
+        def __init__(self):
+            super().__init__()
+            self.ui = Ui_Form()
+            self.ui.setupUi(self)
+    ```
+   or
+    ```python
+    from your_python_file import Ui_Form
+    from PySide6.QtWidgets import QMainWindow
+    
+    class MainWindow(QMainWindow, Ui_Form):
+        def __init__(self):
+            super().__init__()
+            self.setupUi(self)
+    ```
+
 **PRIVACY NOTICE**
 ---
 This application may require inputting personal information or private data to generate customised suggestions,
