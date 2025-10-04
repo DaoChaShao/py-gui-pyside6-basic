@@ -1,2 +1,4 @@
 git-changelog==2.6.3
 pyside6==6.9.3
+
+faker==37.8.0
