@@ -5,6 +5,8 @@
 
 ### Features
 
+- add main window with line edit and buttons for user input ([d48b98c](https://github.com///commit/d48b98c95a86c754140a07ac62b40f556921d959))
+- add calculator application with basic GUI functionality ([cfd8626](https://github.com///commit/cfd8626f43c437f3abc8ac41281cfdcf040bf30e))
 - rename 02_layout_05_grid.py to 03_layout_05_grid.py ([05a8f2b](https://github.com///commit/05a8f2b2871cc1f732e4d5c093d9f39d8f2404ad))
 - rename 02_layout_04_form.py to 03_layout_04_form.py ([c7c8886](https://github.com///commit/c7c8886eba3a8b466337f19d5cd9f7230585317b))
 - rename 02_layout_03_nested.py to 03_layout_03_nested.py ([4732739](https://github.com///commit/47327393ee9577e73aaab876f10e7dd3a87571e8))
@@ -24,10 +26,13 @@
 
 ### Chore
 
+- update CHANGELOG with recent file renames and refactor ([756b53c](https://github.com///commit/756b53c776d74994a574228fd7d3fb6c3209fa71))
 - update CHANGELOG for version 0.1.0 ([fd139ee](https://github.com///commit/fd139eeda57a3a4d2ec26a12b95709c6322ea1f1))
 
 ### Docs
 
+- update Chinese README with static and dynamic UI loading methods for PySide6 ([fc38d86](https://github.com///commit/fc38d864057ef3db14cee2e0b4ed6a7ea2614e3b))
+- update README with UI connection methods for PySide6 ([aaabb56](https://github.com///commit/aaabb563d03e9a49601f6dc3a588a669a0dd9205))
 - fix typo in LICENCE reference in Chinese README ([07dc055](https://github.com///commit/07dc055c5f96c485eaf67d07902cc0d7087c3154))
 - fix typo in LICENCE reference in README ([a915189](https://github.com///commit/a915189613a9268246ae3ba23b7ff12ea01d4d4c))
 - refine Chinese README to improve clarity on PySide6 usage ([b973708](https://github.com///commit/b973708e132cd165e4c18d6e2a5d32c67d79e53c))
