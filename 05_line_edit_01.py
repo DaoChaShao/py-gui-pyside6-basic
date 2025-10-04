@@ -3,7 +3,7 @@
 # @Time     :   2025/10/4 16:15
 # @Author   :   Shawn
 # @Version  :   Version 0.1.0
-# @File     :   05_comboBox_01.py
+# @File     :   05_line_edit_01.py
 # @Desc     :   
 
 from PySide6.QtCore import Qt
