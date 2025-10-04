@@ -31,26 +31,43 @@
     ```bash
     pyside6-uic your_ui_file.ui -o your_python_file.py
     ```
-3. 在您的 Python 代码中构建 UI 与后端逻辑的连接：
+3. 使用**静态加载方法**在 Python 代码中构建 UI 与后端逻辑的连接。
+    **方法一**：`组合`（**推荐**）：
     ```python
     from your_python_file import Ui_Form
     from PySide6.QtWidgets import QMainWindow
+    
+    class MainWindow(QMainWindow):
+         def __init__(self):
+              super().__init__()
+              self.ui = Ui_Form()
+              self.ui.setupUi(self)
+    ```
+    **方法二**：`继承`：
+    ```python
+    from your_python_file import Ui_Form
+    from PySide6.QtWidgets import QMainWindow
+    
+    class MainWindow(QMainWindow, Ui_Form):
+         def __init__(self):
+              super().__init__()
+              self.setupUi(self)
+    ```
+4. 使用**动态加载方法**在 Python 代码中构建 UI 与后端逻辑的连接。
+    ```python
+    from PySide6.QtUiTools import QUiLoader
+    from PySide6.QtWidgets import QMainWindow
+    from PySide6.QtCore import QFile
    
     class MainWindow(QMainWindow):
-        def __init__(self):
-            super().__init__()
-            self.ui = Ui_Form()
-            self.ui.setupUi(self)
-    ```
-   或者
-    ```python
-    from your_python_file import Ui_Form
-    from PySide6.QtWidgets import QMainWindow
+         def __init__(self):
+              super().__init__()
+              loader = QUiLoader()
+              ui_file = QFile("your_ui_file.ui")
    
-    class MainWindow(QMainWindow, Ui_Form):
-        def __init__(self):
-            super().__init__()
-            self.setupUi(self)
+              ui_file.open(QFile.Permission.ReadOnly)
+              self.ui = loader.load(ui_file, self)
+              ui_file.close()
     ```
 
 **隐私声明**
