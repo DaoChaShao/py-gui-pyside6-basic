@@ -3,7 +3,7 @@
 # @Time     :   2025/10/4 11:19
 # @Author   :   Shawn
 # @Version  :   Version 0.1.0
-# @File     :   02_layout_03_nested.py
+# @File     :   03_layout_03_nested.py
 # @Desc     :   
 
 from PySide6.QtCore import Qt
