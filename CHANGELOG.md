@@ -5,6 +5,12 @@
 
 ### Features
 
+- rename 02_layout_05_grid.py to 03_layout_05_grid.py ([05a8f2b](https://github.com///commit/05a8f2b2871cc1f732e4d5c093d9f39d8f2404ad))
+- rename 02_layout_04_form.py to 03_layout_04_form.py ([c7c8886](https://github.com///commit/c7c8886eba3a8b466337f19d5cd9f7230585317b))
+- rename 02_layout_03_nested.py to 03_layout_03_nested.py ([4732739](https://github.com///commit/47327393ee9577e73aaab876f10e7dd3a87571e8))
+- rename 02_layout_02_horizontal.py to 03_layout_02_horizontal.py ([f461297](https://github.com///commit/f461297510cc73c4e0a5b5960c265705f524ecee))
+- rename 02_layout_01_vertical.py to 03_layout_01_vertical.py ([80ed91f](https://github.com///commit/80ed91f8fdf0245fc1958a64ce126eec0199a5ea))
+- rename 03_button_and_label.py to 02_button.py and refactor button functionality ([4f43e3c](https://github.com///commit/4f43e3cf4f680680bd99b51777fc718392af0fd3))
 - add faker dependency to requirements.txt ([55add55](https://github.com///commit/55add55440f3625b7002949577d36628479fe8da))
 - add usage instructions for PySide6 Designer in README.zh-CN.md ([56279fa](https://github.com///commit/56279faead48f97615e0a08b296f3edcbd970d99))
 - add usage instructions for PySide6 Designer in README.md ([d8ace37](https://github.com///commit/d8ace379bd82e7a7c22dc67ebc63719628e7f9b6))
@@ -18,7 +24,7 @@
 
 ### Chore
 
-- update CHANGELOG for version 0.1.0 ([cfd9da6](https://github.com///commit/cfd9da673e2152681177cc0f9b7758ee535e90d8))
+- update CHANGELOG for version 0.1.0 ([fd139ee](https://github.com///commit/fd139eeda57a3a4d2ec26a12b95709c6322ea1f1))
 
 ### Docs
 
