@@ -48,13 +48,14 @@
 
 ### Chore
 
-- update CHANGELOG with recent feature additions and examples ([8b6336f](https://github.com///commit/8b6336f91846102033df0d3409b5a2465da87ce6))
+- update CHANGELOG with recent feature additions and examples ([7da43f7](https://github.com///commit/7da43f77358f13cbc425b0ff15bc1c09a6c98daf))
 - update CHANGELOG with recent feature additions and file renames ([3871fec](https://github.com///commit/3871fec3aeb3b675f9eb7538b12ba471a9746a01))
 - update CHANGELOG with recent file renames and refactor ([756b53c](https://github.com///commit/756b53c776d74994a574228fd7d3fb6c3209fa71))
 - update CHANGELOG for version 0.1.0 ([fd139ee](https://github.com///commit/fd139eeda57a3a4d2ec26a12b95709c6322ea1f1))
 
 ### Docs
 
+- update README for clarity on network requirements ([6372ef3](https://github.com///commit/6372ef3bef693c669a3bf625b86716bc078f67b7))
 - update Chinese README with static and dynamic UI loading methods for PySide6 ([fc38d86](https://github.com///commit/fc38d864057ef3db14cee2e0b4ed6a7ea2614e3b))
 - update README with UI connection methods for PySide6 ([aaabb56](https://github.com///commit/aaabb563d03e9a49601f6dc3a588a669a0dd9205))
 - fix typo in LICENCE reference in Chinese README ([07dc055](https://github.com///commit/07dc055c5f96c485eaf67d07902cc0d7087c3154))
