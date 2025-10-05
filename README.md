@@ -15,7 +15,7 @@ interface.
     ```bash
     pip install pyside6
     ```
-2. If you are in domestic area, run the command:
+2. If your network is not incapable, run the command:
     ```bash
     pip install -i https://mirrors.aliyun.com/pypi/simple/ pyside6
     ```
