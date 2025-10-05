@@ -1,10 +1,22 @@
 <!-- insertion marker -->
 <a name="0.1.0"></a>
 
-## [0.1.0](https://github.com///compare/bd945dcb49189889f8a9e588a58d1de5fd2b36a5...0.1.0) (2025-10-04)
+## [0.1.0](https://github.com///compare/bd945dcb49189889f8a9e588a58d1de5fd2b36a5...0.1.0) (2025-10-06)
 
 ### Features
 
+- add images for QTimer demonstrate ([6e0f51e](https://github.com///commit/6e0f51e6bd9ad7b2914b9eb41b5a108890fa6101))
+- add an image for image display ([a2f3761](https://github.com///commit/a2f376163f5c5facb88e8f72a6b4d28d1f3ea4f2))
+- add table widget example with pagination, search, and data management ([864a749](https://github.com///commit/864a7496630fd079688a42a180631ee5f07890c5))
+- add list widget example with dynamic item management and search functionality ([ab8bced](https://github.com///commit/ab8bced56ae92524c770e15691e53aed22893afc))
+- add toolbox example with dynamic icon switching and exit functionality ([90ab8a0](https://github.com///commit/90ab8a0a497b182b808d69c7f4c218ff0df7d04d))
+- add signal example with login and sub window functionality ([1a5315c](https://github.com///commit/1a5315c5380c7a95e287fdf35ee229a365a18ed2))
+- add input dialog example with integer input and exit functionality ([15cd7f9](https://github.com///commit/15cd7f906e11457ee872e5adecbcee8ea84556c0))
+- add message box example with various alert types and exit functionality ([0ae059a](https://github.com///commit/0ae059a2f8b8f31b077454bb8ef5543826caba83))
+- add double slider example with reset and exit functionality ([73639b6](https://github.com///commit/73639b6eb684be67aec62bf1524ca6779233bb17))
+- add slider example with reset and exit functionality ([40b3a46](https://github.com///commit/40b3a460f80a6575e45f2315cc18539099937b60))
+- add image and timer example with start, stop, and exit functionality ([5d50700](https://github.com///commit/5d50700e6aca4a0350896589db13f13367681cdf))
+- add image display example with display, clear, and exit functionality ([22b4f4c](https://github.com///commit/22b4f4c9f559b4f6df96509e79afbc9134ceb46c))
 - add a Chinese font as data ([a3867ca](https://github.com///commit/a3867ca8e0c0c6dda854e73693ffa5869df970ca))
 - add an English font as data ([e0cfccc](https://github.com///commit/e0cfccc29c1a72329f73102b1ec14f4482985297))
 - add text edit example with submit, clear, and exit functionality ([483f2a8](https://github.com///commit/483f2a8504d7e0ad85eac3673313f777598a6c34))
@@ -36,6 +48,7 @@
 
 ### Chore
 
+- update CHANGELOG with recent feature additions and examples ([8b6336f](https://github.com///commit/8b6336f91846102033df0d3409b5a2465da87ce6))
 - update CHANGELOG with recent feature additions and file renames ([3871fec](https://github.com///commit/3871fec3aeb3b675f9eb7538b12ba471a9746a01))
 - update CHANGELOG with recent file renames and refactor ([756b53c](https://github.com///commit/756b53c776d74994a574228fd7d3fb6c3209fa71))
 - update CHANGELOG for version 0.1.0 ([fd139ee](https://github.com///commit/fd139eeda57a3a4d2ec26a12b95709c6322ea1f1))
