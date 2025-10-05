@@ -14,7 +14,7 @@
     ```bash
     pip install pyside6
     ```
-2. 如果您在国内地区，使用命令：
+2. 如果您的网络环境不佳，可以使用命令：
     ```bash
     pip install -i https://mirrors.aliyun.com/pypi/simple/ pyside6
     ```
@@ -32,7 +32,7 @@
     pyside6-uic your_ui_file.ui -o your_python_file.py
     ```
 3. 使用**静态加载方法**在 Python 代码中构建 UI 与后端逻辑的连接。
-    **方法一**：`组合`（**推荐**）：
+   **方法一**：`组合`（**推荐**）：
     ```python
     from your_python_file import Ui_Form
     from PySide6.QtWidgets import QMainWindow
@@ -43,7 +43,7 @@
               self.ui = Ui_Form()
               self.ui.setupUi(self)
     ```
-    **方法二**：`继承`：
+   **方法二**：`继承`：
     ```python
     from your_python_file import Ui_Form
     from PySide6.QtWidgets import QMainWindow
