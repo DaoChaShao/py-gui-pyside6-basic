@@ -3,7 +3,7 @@
 # @Time     :   2025/10/5 11:15
 # @Author   :   Shawn
 # @Version  :   Version 0.1.0
-# @File     :   14_image_and_timer.py
+# @File     :   14_image_timer_banner.py
 # @Desc     :   
 
 from PySide6.QtCore import Qt, QTimer
