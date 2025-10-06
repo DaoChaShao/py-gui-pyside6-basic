@@ -1,10 +1,21 @@
 <!-- insertion marker -->
 <a name="0.1.0"></a>
 
-## [0.1.0](https://github.com///compare/bd945dcb49189889f8a9e588a58d1de5fd2b36a5...0.1.0) (2025-10-06)
+## [0.1.0](https://github.com///compare/bd945dcb49189889f8a9e588a58d1de5fd2b36a5...0.1.0) (2025-10-07)
 
 ### Features
 
+- create a local database using SQLite3 ([9efc4b4](https://github.com///commit/9efc4b4a4b9ea3a382aefede5009af817b025c21))
+- update requirements to include pandas and plotly ([ca0f64b](https://github.com///commit/ca0f64b82649b8bcb4df52545e821564cbd23740))
+- add Plotly line chart example with random data plotting ([ad05b05](https://github.com///commit/ad05b05c499b4cee12fa9a8023df22210c4d305c))
+- add scatter chart example with random data plotting ([60d3433](https://github.com///commit/60d34334195371204e14622b5e4107b0792be07d))
+- add bar chart example with random data plotting ([0182f0e](https://github.com///commit/0182f0e94260ac0e8e03b4fd2c129371b785a8f6))
+- add line chart example with random data plotting ([9521234](https://github.com///commit/952123479d331ffe8ecd318971272dadcd34a799))
+- add progress bar example with multithreading support ([72d04a0](https://github.com///commit/72d04a03316a4576039c57ff45586d54b79c10ba))
+- add threaded calculation example with GUI ([56c8383](https://github.com///commit/56c8383df67b0e355ce7662bd8f7aebc66355a19))
+- implement tab widget example with closeable tabs ([e80b70f](https://github.com///commit/e80b70fc1549ba87f65c25a5b96c39510b16ebc4))
+- add SQL table view implementation with database connection and search functionality ([3edd8ec](https://github.com///commit/3edd8ecdef517ebefc88fdeb2ef4bac3ea7f8057))
+- add table view implementation with pagination and search functionality ([25b553e](https://github.com///commit/25b553e67b6a50dbcfc1f2fcb12b10b57bc43561))
 - add images for QTimer demonstrate ([6e0f51e](https://github.com///commit/6e0f51e6bd9ad7b2914b9eb41b5a108890fa6101))
 - add an image for image display ([a2f3761](https://github.com///commit/a2f376163f5c5facb88e8f72a6b4d28d1f3ea4f2))
 - add table widget example with pagination, search, and data management ([864a749](https://github.com///commit/864a7496630fd079688a42a180631ee5f07890c5))
@@ -48,6 +59,8 @@
 
 ### Chore
 
+- rename file from 14_image_and_timer.py to 14_image_timer_banner.py ([5a59118](https://github.com///commit/5a59118a80b9fdd2440b3f2b7093dc66025ff948))
+- update CHANGELOG with recent commit references ([c30172a](https://github.com///commit/c30172a4d4c0797152f079aa77da3b69aeced903))
 - update CHANGELOG with recent file renames and refactor ([9c41cbf](https://github.com///commit/9c41cbfc2d72107ff60568a3e0fdfa05f449c481))
 - update CHANGELOG with recent feature additions and examples ([7da43f7](https://github.com///commit/7da43f77358f13cbc425b0ff15bc1c09a6c98daf))
 - update CHANGELOG with recent feature additions and file renames ([3871fec](https://github.com///commit/3871fec3aeb3b675f9eb7538b12ba471a9746a01))
